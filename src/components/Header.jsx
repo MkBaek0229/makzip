@@ -27,6 +27,7 @@ export default Header;
 
 const Container = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: 0 2.5rem;
@@ -37,9 +38,14 @@ const Cell = styled.div`
   display: flex;
   align-items: center;
   gap: 3rem;
+  &.left {
+    display: flex;
+  }
   &.right {
     font-size: 1.3rem;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
   }
 `;
 
