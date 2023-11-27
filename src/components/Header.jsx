@@ -16,8 +16,8 @@ function Header() {
         <Link to={"/sub1"}>서브1</Link>
         <Link to={"/sub2"}>서브2</Link>
         <Link to={"/sub3"}>서브3</Link>
-        <Link to={"/sub3"}>서브4</Link>
-        <Link to={"/sub3"}>서브5</Link>
+        <Link to={"/sub4"}>서브4</Link>
+        <Link to={"/sub5"}>서브5</Link>
       </Cell>
     </Container>
   );

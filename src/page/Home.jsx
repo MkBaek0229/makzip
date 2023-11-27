@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Header from "../components/Header";
-import Sidebar from "./sidebar";
+import Sidebar from "../components/Sidebar";
 
 function Home() {
   return (
